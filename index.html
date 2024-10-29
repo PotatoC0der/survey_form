@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="banner margin-20px-auto">
+            <h1>Time for a quick survey!</h1>
+            <img class="margin-20px-auto" src="lumine.jpg">
+        </div>
+        <div class="container margin-20px-auto" >
+            <h2 class="margin-20px-auto">General playerbase survey</h2>
+            <form class="survey-form">
+                <p>
+                    Hi, we're Hyperbrief, a small group of fellow gacha gamers
+                    aiming to create our own game. We are hoping to collect 
+                    information to determine which genre of gacha games has 
+                    the highest number of active players as of October 2024. 
+                    This survey is completely anonymous and we greatly appreciate 
+                    if you could spare some time in answering the provided questions 
+                    below. 
+                </p>
+                <div class="form-content margin-20px-auto">
+                    <div class="details">
+                        <div class="info">
+                            <label>Name:</label>
+                            <input
+                                type="text"
+                                placeholder="Hyper Brief"
+                                required
+                            >
+                        </div>
+                        <div class="info">
+                            <label>Email:</label>
+                            <input
+                                type="email"
+                                placeholder="Hyperbrief@gmail.com"
+                                required
+                            >
+                        </div>
+                        <div class="info">
+                            <label>How many years have you been playing gacha games?</label>
+                            <input
+                                type="number"
+                                min="1"
+                                max="50"
+                                placeholder="5"
+                                required
+                            >
+                        </div>
+                        <div class="info">
+                            <label>Do you spend money on your game?</label>
+                        <select class="dropdown">
+                            <option></option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        </div>
+                        <div class="info">
+                            <label>What is your source of income?</label>
+                        <input
+                            type="radio"
+                            name="money" 
+                            class="inline"
+                        >Allowance
+                        <input
+                            type="radio"
+                            name="money" 
+                        >Salary
+                        </div>
+                        <div class="info">
+                            <label>Which gacha games have you played consistently during the year 2024?</label>
+                            <div class="gacha-selection">
+                                <fieldset>
+                                    <legend>Select all that applies</legend>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Fate: Grand Order</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Genshin Impact</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Honkai Star Rail</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Zenless Zone Zero</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Blue Archive</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Azur Lane</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Girls Frontline</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Tears of Themis</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Neural Cloud</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label>Arknights</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        Others:<input type="text" placeholder="Insert game name here"></input>
+                                    </div>  
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="text-label margin-20px-auto">
+                            <h4>We'd love to hear how you started on the path of gacha gaming!</h4>
+                        </div>
+                        <textarea class="comment margin-20px-auto" name="other" cols="50" rows="5" placeholder="I started playing a gacha game..."></textarea>
+                        <button class="margin-20px-auto" type="submit" id="submit">Submit</button> 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>  
+</html>
