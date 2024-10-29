@@ -1,0 +1,91 @@
+body {
+    background: #bde0fe;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    display: block;
+    margin: 10px 100px;
+    padding: 30px;
+    background: #cdb4db;
+    border: 6px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+   font-size: 15px;
+}
+
+form {
+    display: block;
+    padding: 20px 50px;
+    text-align: left;
+    border: 10px solid orange;
+    border-radius: 10px;
+    background-color: cyan;
+    color: black;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+#survey-form {
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    border-radius: 10px;
+}
+
+select {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.id {
+    margin: auto;
+    padding: 5px;
+}
+
+label {
+    margin: 20px auto;
+    border-bottom: 4px solid black;
+    width: 60%;
+    font-size: 20px;;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    display: block;
+    margin: 10px 30px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+}
+
+.checkbox {
+    display: flex;
+}
